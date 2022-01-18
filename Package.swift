@@ -14,6 +14,11 @@ let package = Package(
         .library(
             name: "MarkdownKit",
             targets: ["MarkdownKit"]
+        ),
+        .library(
+            name: "MarkdownKitDynamic",
+            type: .dynamic,
+            targets: ["MarkdownKit"]
         )
     ],
     targets: [
